@@ -22,3 +22,7 @@ const_fn = []
 once = ["const_fn"]
 unstable = ["asm", "core_intrinsics", "const_fn", "once"]
 default = ["unstable"]
+
+[dependencies.core]
+git = "https://github.com/RustOS-Fork-Holding-Ground/rust"
+branch = "rustos"
